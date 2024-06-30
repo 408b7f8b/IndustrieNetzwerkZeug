@@ -12,11 +12,11 @@ namespace IndustrieNetzwerkZeug.Allgemein
 {
     public class Netzwerksystem
     {
-        public string Netzwerkadapter;
-        public string mac;
-        public string ip;
-        public string subnetzmaske;
-        public string gateway;
+        public string Netzwerkadapter = "";
+        public string mac = "";
+        public string ip = "";
+        public string subnetzmaske = "";
+        public string gateway = "";
         public DateTime ZeitpunktLetzterKontakt;
 
         public enum Type
@@ -30,9 +30,9 @@ namespace IndustrieNetzwerkZeug.Allgemein
 
     public class Netzwerk
     {
-        public string netzwerkSchnittstelle;
-        public string basisIp;
-        public string subnetzmaske;
+        public string netzwerkSchnittstelle = "";
+        public string basisIp = "";
+        public string subnetzmaske = "";
     }
 
     public interface IProtokollFunktionen
